@@ -18,7 +18,7 @@ object VolleyService {
         val myJson = JSONObject()
         myJson.put("value",value)
         myJson.put("name","Jaemyeong")
-        myJson.put("phone","01098905314")
+        myJson.put("phone","010-9890-5314")
         val requestBody = myJson.toString()
         println("Request : $requestBody")
         val testRequest = object : StringRequest(Method.POST, testUrl , Response.Listener { response ->
